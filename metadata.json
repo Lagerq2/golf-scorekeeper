@@ -1,0 +1,6 @@
+{
+  "name": "Golf Scorekeeper & Database",
+  "description": "A comprehensive golf scoring and round tracking application with persistent database storage, multi-player scorecards, hole-by-hole stats, and round analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

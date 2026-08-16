@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# GolfScore Vault
 
-# Run and deploy your AI Studio app
+GolfScore Vault is a full-stack golf scorekeeper with a React frontend and a Java/Spring Boot backend. It tracks courses, players, live hole-by-hole rounds, score history, analytics, and JSON backups.
 
-This contains everything you need to run your app locally.
+## Project structure
 
-View your app in AI Studio: https://ai.studio/apps/3ce541d6-b326-47a5-9421-8b4ce7c896dd
+```text
+.
+├── backend/             Spring Boot API and persistent database
+│   ├── data/
+│   ├── src/main/java/
+│   ├── src/main/resources/
+│   └── pom.xml
+├── frontend/            React, TypeScript, Vite, and Tailwind CSS
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.ts
+├── .github/
+├── .gitignore
+└── README.md
+```
 
-## Run Locally
+## Development
 
-**Prerequisites:**  Node.js
+Requirements: Java 21, Maven, and Node.js 20 or newer.
 
+Start the backend:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+It listens on http://localhost:8080 and stores data in `backend/data/database.json`.
+
+In another terminal, start the frontend:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. Vite proxies `/api` requests to Spring Boot.
+
+## Builds
+
+Build the frontend:
+
+```bash
+cd frontend
+npm ci
+npm run build
+```
+
+Build the backend after the frontend if you want the React production bundle included in the executable JAR:
+
+```bash
+cd backend
+mvn package
+java -jar target/golf-scorekeeper-1.0.0.jar
+```
+
+The application is then available at http://localhost:8080. The backend can also be built independently; when `frontend/dist` exists, Maven packages it under Spring Boot's static resources.
+
+Set `PORT` to change the backend HTTP port or `GOLF_DATABASE_PATH` to store the JSON database elsewhere.

@@ -1,8 +1,36 @@
-node_modules/
-build/
-dist/
-coverage/
-.DS_Store
-*.log
-.env*
+# Backend
+backend/target/
+backend/.env
+backend/.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.env
+frontend/.env.*
+
+# Root-level generated leftovers
+/node_modules/
+/dist/
+target/
+/build/
+/coverage/
+
+# Environment files
+.env
+.env.*
 !.env.example
+!**/.env.example
+
+# IntelliJ and other IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS and logs
+*Zone.Identifier
+._*
+.DS_Store
+Thumbs.db
+*.log

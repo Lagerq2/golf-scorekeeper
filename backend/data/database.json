@@ -1,0 +1,2934 @@
+{
+  "courses": [
+    {
+      "id": "course-augusta",
+      "name": "Augusta National Golf Club",
+      "location": "Augusta, Georgia",
+      "city": "Augusta",
+      "country": "USA",
+      "holesCount": 18,
+      "parTotal": 72,
+      "rating": 76.2,
+      "slope": 148,
+      "createdAt": "2026-08-14T11:53:13.802Z",
+      "isCustom": false,
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicapIndex": 9,
+          "notes": "Tea Olive",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 334
+            },
+            {
+              "tee": "WHITE",
+              "meters": 366
+            },
+            {
+              "tee": "BLUE",
+              "meters": 407
+            },
+            {
+              "tee": "BLACK",
+              "meters": 416
+            }
+          ],
+          "meters": {
+            "red": 334,
+            "white": 366,
+            "blue": 407,
+            "black": 416
+          }
+        },
+        {
+          "holeNumber": 2,
+          "par": 5,
+          "handicapIndex": 13,
+          "notes": "Pink Dogwood",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 443
+            },
+            {
+              "tee": "WHITE",
+              "meters": 471
+            },
+            {
+              "tee": "BLUE",
+              "meters": 526
+            },
+            {
+              "tee": "BLACK",
+              "meters": 535
+            }
+          ],
+          "meters": {
+            "red": 443,
+            "white": 471,
+            "blue": 526,
+            "black": 535
+          }
+        },
+        {
+          "holeNumber": 3,
+          "par": 4,
+          "handicapIndex": 15,
+          "notes": "Flowering Peach",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 302
+            },
+            {
+              "tee": "BLUE",
+              "meters": 320
+            },
+            {
+              "tee": "BLACK",
+              "meters": 320
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 302,
+            "blue": 320,
+            "black": 320
+          }
+        },
+        {
+          "holeNumber": 4,
+          "par": 3,
+          "handicapIndex": 5,
+          "notes": "Flowering Crab Apple",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 155
+            },
+            {
+              "tee": "WHITE",
+              "meters": 183
+            },
+            {
+              "tee": "BLUE",
+              "meters": 219
+            },
+            {
+              "tee": "BLACK",
+              "meters": 219
+            }
+          ],
+          "meters": {
+            "red": 155,
+            "white": 183,
+            "blue": 219,
+            "black": 219
+          }
+        },
+        {
+          "holeNumber": 5,
+          "par": 4,
+          "handicapIndex": 1,
+          "notes": "Magnolia",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 375
+            },
+            {
+              "tee": "WHITE",
+              "meters": 402
+            },
+            {
+              "tee": "BLUE",
+              "meters": 453
+            },
+            {
+              "tee": "BLACK",
+              "meters": 453
+            }
+          ],
+          "meters": {
+            "red": 375,
+            "white": 402,
+            "blue": 453,
+            "black": 453
+          }
+        },
+        {
+          "holeNumber": 6,
+          "par": 3,
+          "handicapIndex": 11,
+          "notes": "Juniper",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 137
+            },
+            {
+              "tee": "WHITE",
+              "meters": 155
+            },
+            {
+              "tee": "BLUE",
+              "meters": 165
+            },
+            {
+              "tee": "BLACK",
+              "meters": 165
+            }
+          ],
+          "meters": {
+            "red": 137,
+            "white": 155,
+            "blue": 165,
+            "black": 165
+          }
+        },
+        {
+          "holeNumber": 7,
+          "par": 4,
+          "handicapIndex": 7,
+          "notes": "Pampas",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 343
+            },
+            {
+              "tee": "WHITE",
+              "meters": 375
+            },
+            {
+              "tee": "BLUE",
+              "meters": 411
+            },
+            {
+              "tee": "BLACK",
+              "meters": 411
+            }
+          ],
+          "meters": {
+            "red": 343,
+            "white": 375,
+            "blue": 411,
+            "black": 411
+          }
+        },
+        {
+          "holeNumber": 8,
+          "par": 5,
+          "handicapIndex": 17,
+          "notes": "Yellow Jasmine",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 439
+            },
+            {
+              "tee": "WHITE",
+              "meters": 475
+            },
+            {
+              "tee": "BLUE",
+              "meters": 521
+            },
+            {
+              "tee": "BLACK",
+              "meters": 521
+            }
+          ],
+          "meters": {
+            "red": 439,
+            "white": 475,
+            "blue": 521,
+            "black": 521
+          }
+        },
+        {
+          "holeNumber": 9,
+          "par": 4,
+          "handicapIndex": 3,
+          "notes": "Carolina Cherry",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 347
+            },
+            {
+              "tee": "WHITE",
+              "meters": 384
+            },
+            {
+              "tee": "BLUE",
+              "meters": 421
+            },
+            {
+              "tee": "BLACK",
+              "meters": 421
+            }
+          ],
+          "meters": {
+            "red": 347,
+            "white": 384,
+            "blue": 421,
+            "black": 421
+          }
+        },
+        {
+          "holeNumber": 10,
+          "par": 4,
+          "handicapIndex": 2,
+          "notes": "Camellia",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 379
+            },
+            {
+              "tee": "WHITE",
+              "meters": 411
+            },
+            {
+              "tee": "BLUE",
+              "meters": 453
+            },
+            {
+              "tee": "BLACK",
+              "meters": 453
+            }
+          ],
+          "meters": {
+            "red": 379,
+            "white": 411,
+            "blue": 453,
+            "black": 453
+          }
+        },
+        {
+          "holeNumber": 11,
+          "par": 4,
+          "handicapIndex": 4,
+          "notes": "White Dogwood (Amen Corner)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 389
+            },
+            {
+              "tee": "WHITE",
+              "meters": 421
+            },
+            {
+              "tee": "BLUE",
+              "meters": 475
+            },
+            {
+              "tee": "BLACK",
+              "meters": 475
+            }
+          ],
+          "meters": {
+            "red": 389,
+            "white": 421,
+            "blue": 475,
+            "black": 475
+          }
+        },
+        {
+          "holeNumber": 12,
+          "par": 3,
+          "handicapIndex": 12,
+          "notes": "Golden Bell (Rae's Creek)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 119
+            },
+            {
+              "tee": "WHITE",
+              "meters": 133
+            },
+            {
+              "tee": "BLUE",
+              "meters": 142
+            },
+            {
+              "tee": "BLACK",
+              "meters": 142
+            }
+          ],
+          "meters": {
+            "red": 119,
+            "white": 133,
+            "blue": 142,
+            "black": 142
+          }
+        },
+        {
+          "holeNumber": 13,
+          "par": 5,
+          "handicapIndex": 16,
+          "notes": "Azalea (Amen Corner)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 402
+            },
+            {
+              "tee": "WHITE",
+              "meters": 434
+            },
+            {
+              "tee": "BLUE",
+              "meters": 466
+            },
+            {
+              "tee": "BLACK",
+              "meters": 466
+            }
+          ],
+          "meters": {
+            "red": 402,
+            "white": 434,
+            "blue": 466,
+            "black": 466
+          }
+        },
+        {
+          "holeNumber": 14,
+          "par": 4,
+          "handicapIndex": 8,
+          "notes": "Chinese Fir",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 329
+            },
+            {
+              "tee": "WHITE",
+              "meters": 366
+            },
+            {
+              "tee": "BLUE",
+              "meters": 402
+            },
+            {
+              "tee": "BLACK",
+              "meters": 402
+            }
+          ],
+          "meters": {
+            "red": 329,
+            "white": 366,
+            "blue": 402,
+            "black": 402
+          }
+        },
+        {
+          "holeNumber": 15,
+          "par": 5,
+          "handicapIndex": 18,
+          "notes": "Firethorn",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 416
+            },
+            {
+              "tee": "WHITE",
+              "meters": 448
+            },
+            {
+              "tee": "BLUE",
+              "meters": 503
+            },
+            {
+              "tee": "BLACK",
+              "meters": 503
+            }
+          ],
+          "meters": {
+            "red": 416,
+            "white": 448,
+            "blue": 503,
+            "black": 503
+          }
+        },
+        {
+          "holeNumber": 16,
+          "par": 3,
+          "handicapIndex": 14,
+          "notes": "Redbud",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 133
+            },
+            {
+              "tee": "WHITE",
+              "meters": 146
+            },
+            {
+              "tee": "BLUE",
+              "meters": 155
+            },
+            {
+              "tee": "BLACK",
+              "meters": 155
+            }
+          ],
+          "meters": {
+            "red": 133,
+            "white": 146,
+            "blue": 155,
+            "black": 155
+          }
+        },
+        {
+          "holeNumber": 17,
+          "par": 4,
+          "handicapIndex": 10,
+          "notes": "Nandina",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 338
+            },
+            {
+              "tee": "WHITE",
+              "meters": 370
+            },
+            {
+              "tee": "BLUE",
+              "meters": 402
+            },
+            {
+              "tee": "BLACK",
+              "meters": 402
+            }
+          ],
+          "meters": {
+            "red": 338,
+            "white": 370,
+            "blue": 402,
+            "black": 402
+          }
+        },
+        {
+          "holeNumber": 18,
+          "par": 4,
+          "handicapIndex": 6,
+          "notes": "Holly",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 357
+            },
+            {
+              "tee": "WHITE",
+              "meters": 384
+            },
+            {
+              "tee": "BLUE",
+              "meters": 425
+            },
+            {
+              "tee": "BLACK",
+              "meters": 425
+            }
+          ],
+          "meters": {
+            "red": 357,
+            "white": 384,
+            "blue": 425,
+            "black": 425
+          }
+        }
+      ],
+      "availableTees": [
+        "RED",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ]
+    },
+    {
+      "id": "course-pebble",
+      "name": "Pebble Beach Golf Links",
+      "location": "Pebble Beach, California",
+      "city": "Pebble Beach",
+      "country": "USA",
+      "holesCount": 18,
+      "parTotal": 72,
+      "rating": 75.5,
+      "slope": 145,
+      "createdAt": "2026-08-14T11:53:13.802Z",
+      "isCustom": false,
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicapIndex": 8,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 315
+            },
+            {
+              "tee": "BLUE",
+              "meters": 343
+            },
+            {
+              "tee": "BLACK",
+              "meters": 347
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 315,
+            "blue": 343,
+            "black": 347
+          }
+        },
+        {
+          "holeNumber": 2,
+          "par": 5,
+          "handicapIndex": 10,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 384
+            },
+            {
+              "tee": "WHITE",
+              "meters": 421
+            },
+            {
+              "tee": "BLUE",
+              "meters": 459
+            },
+            {
+              "tee": "BLACK",
+              "meters": 472
+            }
+          ],
+          "meters": {
+            "red": 384,
+            "white": 421,
+            "blue": 459,
+            "black": 472
+          }
+        },
+        {
+          "holeNumber": 3,
+          "par": 4,
+          "handicapIndex": 12,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 288
+            },
+            {
+              "tee": "WHITE",
+              "meters": 320
+            },
+            {
+              "tee": "BLUE",
+              "meters": 357
+            },
+            {
+              "tee": "BLACK",
+              "meters": 369
+            }
+          ],
+          "meters": {
+            "red": 288,
+            "white": 320,
+            "blue": 357,
+            "black": 369
+          }
+        },
+        {
+          "holeNumber": 4,
+          "par": 4,
+          "handicapIndex": 16,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 238
+            },
+            {
+              "tee": "WHITE",
+              "meters": 274
+            },
+            {
+              "tee": "BLUE",
+              "meters": 298
+            },
+            {
+              "tee": "BLACK",
+              "meters": 303
+            }
+          ],
+          "meters": {
+            "red": 238,
+            "white": 274,
+            "blue": 298,
+            "black": 303
+          }
+        },
+        {
+          "holeNumber": 5,
+          "par": 3,
+          "handicapIndex": 14,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 114
+            },
+            {
+              "tee": "WHITE",
+              "meters": 142
+            },
+            {
+              "tee": "BLUE",
+              "meters": 169
+            },
+            {
+              "tee": "BLACK",
+              "meters": 178
+            }
+          ],
+          "meters": {
+            "red": 114,
+            "white": 142,
+            "blue": 169,
+            "black": 178
+          }
+        },
+        {
+          "holeNumber": 6,
+          "par": 5,
+          "handicapIndex": 2,
+          "notes": "Cliffs along ocean",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 393
+            },
+            {
+              "tee": "WHITE",
+              "meters": 430
+            },
+            {
+              "tee": "BLUE",
+              "meters": 469
+            },
+            {
+              "tee": "BLACK",
+              "meters": 478
+            }
+          ],
+          "meters": {
+            "red": 393,
+            "white": 430,
+            "blue": 469,
+            "black": 478
+          }
+        },
+        {
+          "holeNumber": 7,
+          "par": 3,
+          "handicapIndex": 18,
+          "notes": "Iconic downhill par 3",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 87
+            },
+            {
+              "tee": "WHITE",
+              "meters": 91
+            },
+            {
+              "tee": "BLUE",
+              "meters": 97
+            },
+            {
+              "tee": "BLACK",
+              "meters": 97
+            }
+          ],
+          "meters": {
+            "red": 87,
+            "white": 91,
+            "blue": 97,
+            "black": 97
+          }
+        },
+        {
+          "holeNumber": 8,
+          "par": 4,
+          "handicapIndex": 6,
+          "notes": "Dramatic ocean chasm",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 325
+            },
+            {
+              "tee": "WHITE",
+              "meters": 357
+            },
+            {
+              "tee": "BLUE",
+              "meters": 382
+            },
+            {
+              "tee": "BLACK",
+              "meters": 391
+            }
+          ],
+          "meters": {
+            "red": 325,
+            "white": 357,
+            "blue": 382,
+            "black": 391
+          }
+        },
+        {
+          "holeNumber": 9,
+          "par": 4,
+          "handicapIndex": 4,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 370
+            },
+            {
+              "tee": "WHITE",
+              "meters": 402
+            },
+            {
+              "tee": "BLUE",
+              "meters": 426
+            },
+            {
+              "tee": "BLACK",
+              "meters": 442
+            }
+          ],
+          "meters": {
+            "red": 370,
+            "white": 402,
+            "blue": 426,
+            "black": 442
+          }
+        },
+        {
+          "holeNumber": 10,
+          "par": 4,
+          "handicapIndex": 5,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 357
+            },
+            {
+              "tee": "WHITE",
+              "meters": 384
+            },
+            {
+              "tee": "BLUE",
+              "meters": 408
+            },
+            {
+              "tee": "BLACK",
+              "meters": 453
+            }
+          ],
+          "meters": {
+            "red": 357,
+            "white": 384,
+            "blue": 408,
+            "black": 453
+          }
+        },
+        {
+          "holeNumber": 11,
+          "par": 4,
+          "handicapIndex": 7,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 320
+            },
+            {
+              "tee": "BLUE",
+              "meters": 341
+            },
+            {
+              "tee": "BLACK",
+              "meters": 357
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 320,
+            "blue": 341,
+            "black": 357
+          }
+        },
+        {
+          "holeNumber": 12,
+          "par": 3,
+          "handicapIndex": 17,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 137
+            },
+            {
+              "tee": "WHITE",
+              "meters": 160
+            },
+            {
+              "tee": "BLUE",
+              "meters": 184
+            },
+            {
+              "tee": "BLACK",
+              "meters": 185
+            }
+          ],
+          "meters": {
+            "red": 137,
+            "white": 160,
+            "blue": 184,
+            "black": 185
+          }
+        },
+        {
+          "holeNumber": 13,
+          "par": 4,
+          "handicapIndex": 9,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 302
+            },
+            {
+              "tee": "WHITE",
+              "meters": 338
+            },
+            {
+              "tee": "BLUE",
+              "meters": 365
+            },
+            {
+              "tee": "BLACK",
+              "meters": 407
+            }
+          ],
+          "meters": {
+            "red": 302,
+            "white": 338,
+            "blue": 365,
+            "black": 407
+          }
+        },
+        {
+          "holeNumber": 14,
+          "par": 5,
+          "handicapIndex": 1,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 421
+            },
+            {
+              "tee": "WHITE",
+              "meters": 466
+            },
+            {
+              "tee": "BLUE",
+              "meters": 517
+            },
+            {
+              "tee": "BLACK",
+              "meters": 530
+            }
+          ],
+          "meters": {
+            "red": 421,
+            "white": 466,
+            "blue": 517,
+            "black": 530
+          }
+        },
+        {
+          "holeNumber": 15,
+          "par": 4,
+          "handicapIndex": 13,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 288
+            },
+            {
+              "tee": "WHITE",
+              "meters": 329
+            },
+            {
+              "tee": "BLUE",
+              "meters": 362
+            },
+            {
+              "tee": "BLACK",
+              "meters": 369
+            }
+          ],
+          "meters": {
+            "red": 288,
+            "white": 329,
+            "blue": 362,
+            "black": 369
+          }
+        },
+        {
+          "holeNumber": 16,
+          "par": 4,
+          "handicapIndex": 11,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 302
+            },
+            {
+              "tee": "WHITE",
+              "meters": 338
+            },
+            {
+              "tee": "BLUE",
+              "meters": 367
+            },
+            {
+              "tee": "BLACK",
+              "meters": 369
+            }
+          ],
+          "meters": {
+            "red": 302,
+            "white": 338,
+            "blue": 367,
+            "black": 369
+          }
+        },
+        {
+          "holeNumber": 17,
+          "par": 3,
+          "handicapIndex": 15,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 128
+            },
+            {
+              "tee": "WHITE",
+              "meters": 155
+            },
+            {
+              "tee": "BLUE",
+              "meters": 163
+            },
+            {
+              "tee": "BLACK",
+              "meters": 190
+            }
+          ],
+          "meters": {
+            "red": 128,
+            "white": 155,
+            "blue": 163,
+            "black": 190
+          }
+        },
+        {
+          "holeNumber": 18,
+          "par": 5,
+          "handicapIndex": 3,
+          "notes": "Legendary finishing hole",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 402
+            },
+            {
+              "tee": "WHITE",
+              "meters": 448
+            },
+            {
+              "tee": "BLUE",
+              "meters": 497
+            },
+            {
+              "tee": "BLACK",
+              "meters": 497
+            }
+          ],
+          "meters": {
+            "red": 402,
+            "white": 448,
+            "blue": 497,
+            "black": 497
+          }
+        }
+      ],
+      "availableTees": [
+        "RED",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ]
+    },
+    {
+      "id": "course-standrews",
+      "name": "St Andrews Links (Old Course)",
+      "location": "St Andrews, Fife",
+      "city": "St Andrews",
+      "country": "Scotland",
+      "holesCount": 18,
+      "parTotal": 72,
+      "rating": 73.1,
+      "slope": 132,
+      "createdAt": "2026-08-14T11:53:13.802Z",
+      "isCustom": false,
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicapIndex": 10,
+          "notes": "Burn",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 306
+            },
+            {
+              "tee": "WHITE",
+              "meters": 325
+            },
+            {
+              "tee": "BLUE",
+              "meters": 344
+            },
+            {
+              "tee": "BLACK",
+              "meters": 344
+            }
+          ],
+          "meters": {
+            "red": 306,
+            "white": 325,
+            "blue": 344,
+            "black": 344
+          }
+        },
+        {
+          "holeNumber": 2,
+          "par": 4,
+          "handicapIndex": 6,
+          "notes": "Dyke",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 338
+            },
+            {
+              "tee": "WHITE",
+              "meters": 361
+            },
+            {
+              "tee": "BLUE",
+              "meters": 414
+            },
+            {
+              "tee": "BLACK",
+              "meters": 414
+            }
+          ],
+          "meters": {
+            "red": 338,
+            "white": 361,
+            "blue": 414,
+            "black": 414
+          }
+        },
+        {
+          "holeNumber": 3,
+          "par": 4,
+          "handicapIndex": 16,
+          "notes": "Cartgate (Out)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 293
+            },
+            {
+              "tee": "WHITE",
+              "meters": 320
+            },
+            {
+              "tee": "BLUE",
+              "meters": 363
+            },
+            {
+              "tee": "BLACK",
+              "meters": 363
+            }
+          ],
+          "meters": {
+            "red": 293,
+            "white": 320,
+            "blue": 363,
+            "black": 363
+          }
+        },
+        {
+          "holeNumber": 4,
+          "par": 4,
+          "handicapIndex": 8,
+          "notes": "Ginger Beer",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 366
+            },
+            {
+              "tee": "WHITE",
+              "meters": 393
+            },
+            {
+              "tee": "BLUE",
+              "meters": 439
+            },
+            {
+              "tee": "BLACK",
+              "meters": 439
+            }
+          ],
+          "meters": {
+            "red": 366,
+            "white": 393,
+            "blue": 439,
+            "black": 439
+          }
+        },
+        {
+          "holeNumber": 5,
+          "par": 5,
+          "handicapIndex": 2,
+          "notes": "Hole O'Cross (Out)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 443
+            },
+            {
+              "tee": "WHITE",
+              "meters": 470
+            },
+            {
+              "tee": "BLUE",
+              "meters": 519
+            },
+            {
+              "tee": "BLACK",
+              "meters": 519
+            }
+          ],
+          "meters": {
+            "red": 443,
+            "white": 470,
+            "blue": 519,
+            "black": 519
+          }
+        },
+        {
+          "holeNumber": 6,
+          "par": 4,
+          "handicapIndex": 14,
+          "notes": "Heathery (Out)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 311
+            },
+            {
+              "tee": "WHITE",
+              "meters": 342
+            },
+            {
+              "tee": "BLUE",
+              "meters": 377
+            },
+            {
+              "tee": "BLACK",
+              "meters": 377
+            }
+          ],
+          "meters": {
+            "red": 311,
+            "white": 342,
+            "blue": 377,
+            "black": 377
+          }
+        },
+        {
+          "holeNumber": 7,
+          "par": 4,
+          "handicapIndex": 12,
+          "notes": "High (Out)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 297
+            },
+            {
+              "tee": "WHITE",
+              "meters": 328
+            },
+            {
+              "tee": "BLUE",
+              "meters": 339
+            },
+            {
+              "tee": "BLACK",
+              "meters": 339
+            }
+          ],
+          "meters": {
+            "red": 297,
+            "white": 328,
+            "blue": 339,
+            "black": 339
+          }
+        },
+        {
+          "holeNumber": 8,
+          "par": 3,
+          "handicapIndex": 18,
+          "notes": "Short",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 133
+            },
+            {
+              "tee": "WHITE",
+              "meters": 152
+            },
+            {
+              "tee": "BLUE",
+              "meters": 160
+            },
+            {
+              "tee": "BLACK",
+              "meters": 160
+            }
+          ],
+          "meters": {
+            "red": 133,
+            "white": 152,
+            "blue": 160,
+            "black": 160
+          }
+        },
+        {
+          "holeNumber": 9,
+          "par": 4,
+          "handicapIndex": 4,
+          "notes": "End",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 317
+            },
+            {
+              "tee": "BLUE",
+              "meters": 322
+            },
+            {
+              "tee": "BLACK",
+              "meters": 322
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 317,
+            "blue": 322,
+            "black": 322
+          }
+        },
+        {
+          "holeNumber": 10,
+          "par": 4,
+          "handicapIndex": 5,
+          "notes": "Bobby Jones",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 311
+            },
+            {
+              "tee": "BLUE",
+              "meters": 353
+            },
+            {
+              "tee": "BLACK",
+              "meters": 353
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 311,
+            "blue": 353,
+            "black": 353
+          }
+        },
+        {
+          "holeNumber": 11,
+          "par": 3,
+          "handicapIndex": 17,
+          "notes": "High (In)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 128
+            },
+            {
+              "tee": "WHITE",
+              "meters": 150
+            },
+            {
+              "tee": "BLUE",
+              "meters": 159
+            },
+            {
+              "tee": "BLACK",
+              "meters": 159
+            }
+          ],
+          "meters": {
+            "red": 128,
+            "white": 150,
+            "blue": 159,
+            "black": 159
+          }
+        },
+        {
+          "holeNumber": 12,
+          "par": 4,
+          "handicapIndex": 11,
+          "notes": "Heathery (In)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 274
+            },
+            {
+              "tee": "WHITE",
+              "meters": 289
+            },
+            {
+              "tee": "BLUE",
+              "meters": 318
+            },
+            {
+              "tee": "BLACK",
+              "meters": 318
+            }
+          ],
+          "meters": {
+            "red": 274,
+            "white": 289,
+            "blue": 318,
+            "black": 318
+          }
+        },
+        {
+          "holeNumber": 13,
+          "par": 4,
+          "handicapIndex": 7,
+          "notes": "Hole O'Cross (In)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 347
+            },
+            {
+              "tee": "WHITE",
+              "meters": 382
+            },
+            {
+              "tee": "BLUE",
+              "meters": 425
+            },
+            {
+              "tee": "BLACK",
+              "meters": 425
+            }
+          ],
+          "meters": {
+            "red": 347,
+            "white": 382,
+            "blue": 425,
+            "black": 425
+          }
+        },
+        {
+          "holeNumber": 14,
+          "par": 5,
+          "handicapIndex": 1,
+          "notes": "Long",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 466
+            },
+            {
+              "tee": "WHITE",
+              "meters": 485
+            },
+            {
+              "tee": "BLUE",
+              "meters": 565
+            },
+            {
+              "tee": "BLACK",
+              "meters": 565
+            }
+          ],
+          "meters": {
+            "red": 466,
+            "white": 485,
+            "blue": 565,
+            "black": 565
+          }
+        },
+        {
+          "holeNumber": 15,
+          "par": 4,
+          "handicapIndex": 13,
+          "notes": "Cartgate (In)",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 338
+            },
+            {
+              "tee": "WHITE",
+              "meters": 377
+            },
+            {
+              "tee": "BLUE",
+              "meters": 416
+            },
+            {
+              "tee": "BLACK",
+              "meters": 416
+            }
+          ],
+          "meters": {
+            "red": 338,
+            "white": 377,
+            "blue": 416,
+            "black": 416
+          }
+        },
+        {
+          "holeNumber": 16,
+          "par": 4,
+          "handicapIndex": 15,
+          "notes": "Corner of the Dyke",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 311
+            },
+            {
+              "tee": "WHITE",
+              "meters": 348
+            },
+            {
+              "tee": "BLUE",
+              "meters": 387
+            },
+            {
+              "tee": "BLACK",
+              "meters": 387
+            }
+          ],
+          "meters": {
+            "red": 311,
+            "white": 348,
+            "blue": 387,
+            "black": 387
+          }
+        },
+        {
+          "holeNumber": 17,
+          "par": 4,
+          "handicapIndex": 3,
+          "notes": "Road Hole",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 379
+            },
+            {
+              "tee": "WHITE",
+              "meters": 416
+            },
+            {
+              "tee": "BLUE",
+              "meters": 453
+            },
+            {
+              "tee": "BLACK",
+              "meters": 453
+            }
+          ],
+          "meters": {
+            "red": 379,
+            "white": 416,
+            "blue": 453,
+            "black": 453
+          }
+        },
+        {
+          "holeNumber": 18,
+          "par": 4,
+          "handicapIndex": 9,
+          "notes": "Tom Morris / Swilcan Bridge",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 302
+            },
+            {
+              "tee": "WHITE",
+              "meters": 326
+            },
+            {
+              "tee": "BLUE",
+              "meters": 326
+            },
+            {
+              "tee": "BLACK",
+              "meters": 326
+            }
+          ],
+          "meters": {
+            "red": 302,
+            "white": 326,
+            "blue": 326,
+            "black": 326
+          }
+        }
+      ],
+      "availableTees": [
+        "RED",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ]
+    },
+    {
+      "id": "course-sawgrass",
+      "name": "TPC Sawgrass (Stadium Course)",
+      "location": "Ponte Vedra Beach, Florida",
+      "city": "Ponte Vedra Beach",
+      "country": "USA",
+      "holesCount": 18,
+      "parTotal": 72,
+      "rating": 76.4,
+      "slope": 155,
+      "createdAt": "2026-08-14T11:53:13.802Z",
+      "isCustom": false,
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicapIndex": 7,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 311
+            },
+            {
+              "tee": "WHITE",
+              "meters": 343
+            },
+            {
+              "tee": "BLUE",
+              "meters": 361
+            },
+            {
+              "tee": "BLACK",
+              "meters": 387
+            }
+          ],
+          "meters": {
+            "red": 311,
+            "white": 343,
+            "blue": 361,
+            "black": 387
+          }
+        },
+        {
+          "holeNumber": 2,
+          "par": 5,
+          "handicapIndex": 13,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 425
+            },
+            {
+              "tee": "WHITE",
+              "meters": 462
+            },
+            {
+              "tee": "BLUE",
+              "meters": 486
+            },
+            {
+              "tee": "BLACK",
+              "meters": 486
+            }
+          ],
+          "meters": {
+            "red": 425,
+            "white": 462,
+            "blue": 486,
+            "black": 486
+          }
+        },
+        {
+          "holeNumber": 3,
+          "par": 3,
+          "handicapIndex": 17,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 114
+            },
+            {
+              "tee": "WHITE",
+              "meters": 137
+            },
+            {
+              "tee": "BLUE",
+              "meters": 162
+            },
+            {
+              "tee": "BLACK",
+              "meters": 162
+            }
+          ],
+          "meters": {
+            "red": 114,
+            "white": 137,
+            "blue": 162,
+            "black": 162
+          }
+        },
+        {
+          "holeNumber": 4,
+          "par": 4,
+          "handicapIndex": 3,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 293
+            },
+            {
+              "tee": "WHITE",
+              "meters": 325
+            },
+            {
+              "tee": "BLUE",
+              "meters": 351
+            },
+            {
+              "tee": "BLACK",
+              "meters": 351
+            }
+          ],
+          "meters": {
+            "red": 293,
+            "white": 325,
+            "blue": 351,
+            "black": 351
+          }
+        },
+        {
+          "holeNumber": 5,
+          "par": 4,
+          "handicapIndex": 1,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 357
+            },
+            {
+              "tee": "WHITE",
+              "meters": 393
+            },
+            {
+              "tee": "BLUE",
+              "meters": 431
+            },
+            {
+              "tee": "BLACK",
+              "meters": 431
+            }
+          ],
+          "meters": {
+            "red": 357,
+            "white": 393,
+            "blue": 431,
+            "black": 431
+          }
+        },
+        {
+          "holeNumber": 6,
+          "par": 4,
+          "handicapIndex": 11,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 302
+            },
+            {
+              "tee": "WHITE",
+              "meters": 334
+            },
+            {
+              "tee": "BLUE",
+              "meters": 359
+            },
+            {
+              "tee": "BLACK",
+              "meters": 359
+            }
+          ],
+          "meters": {
+            "red": 302,
+            "white": 334,
+            "blue": 359,
+            "black": 359
+          }
+        },
+        {
+          "holeNumber": 7,
+          "par": 4,
+          "handicapIndex": 5,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 334
+            },
+            {
+              "tee": "WHITE",
+              "meters": 366
+            },
+            {
+              "tee": "BLUE",
+              "meters": 412
+            },
+            {
+              "tee": "BLACK",
+              "meters": 412
+            }
+          ],
+          "meters": {
+            "red": 334,
+            "white": 366,
+            "blue": 412,
+            "black": 412
+          }
+        },
+        {
+          "holeNumber": 8,
+          "par": 3,
+          "handicapIndex": 15,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 146
+            },
+            {
+              "tee": "WHITE",
+              "meters": 174
+            },
+            {
+              "tee": "BLUE",
+              "meters": 217
+            },
+            {
+              "tee": "BLACK",
+              "meters": 217
+            }
+          ],
+          "meters": {
+            "red": 146,
+            "white": 174,
+            "blue": 217,
+            "black": 217
+          }
+        },
+        {
+          "holeNumber": 9,
+          "par": 5,
+          "handicapIndex": 9,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 448
+            },
+            {
+              "tee": "WHITE",
+              "meters": 489
+            },
+            {
+              "tee": "BLUE",
+              "meters": 533
+            },
+            {
+              "tee": "BLACK",
+              "meters": 533
+            }
+          ],
+          "meters": {
+            "red": 448,
+            "white": 489,
+            "blue": 533,
+            "black": 533
+          }
+        },
+        {
+          "holeNumber": 10,
+          "par": 4,
+          "handicapIndex": 12,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 320
+            },
+            {
+              "tee": "WHITE",
+              "meters": 352
+            },
+            {
+              "tee": "BLUE",
+              "meters": 388
+            },
+            {
+              "tee": "BLACK",
+              "meters": 388
+            }
+          ],
+          "meters": {
+            "red": 320,
+            "white": 352,
+            "blue": 388,
+            "black": 388
+          }
+        },
+        {
+          "holeNumber": 11,
+          "par": 5,
+          "handicapIndex": 8,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 430
+            },
+            {
+              "tee": "WHITE",
+              "meters": 466
+            },
+            {
+              "tee": "BLUE",
+              "meters": 510
+            },
+            {
+              "tee": "BLACK",
+              "meters": 510
+            }
+          ],
+          "meters": {
+            "red": 430,
+            "white": 466,
+            "blue": 510,
+            "black": 510
+          }
+        },
+        {
+          "holeNumber": 12,
+          "par": 4,
+          "handicapIndex": 16,
+          "notes": "Drivable par 4",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 251
+            },
+            {
+              "tee": "WHITE",
+              "meters": 293
+            },
+            {
+              "tee": "BLUE",
+              "meters": 327
+            },
+            {
+              "tee": "BLACK",
+              "meters": 337
+            }
+          ],
+          "meters": {
+            "red": 251,
+            "white": 293,
+            "blue": 327,
+            "black": 337
+          }
+        },
+        {
+          "holeNumber": 13,
+          "par": 3,
+          "handicapIndex": 18,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 123
+            },
+            {
+              "tee": "WHITE",
+              "meters": 142
+            },
+            {
+              "tee": "BLUE",
+              "meters": 166
+            },
+            {
+              "tee": "BLACK",
+              "meters": 166
+            }
+          ],
+          "meters": {
+            "red": 123,
+            "white": 142,
+            "blue": 166,
+            "black": 166
+          }
+        },
+        {
+          "holeNumber": 14,
+          "par": 4,
+          "handicapIndex": 2,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 347
+            },
+            {
+              "tee": "WHITE",
+              "meters": 398
+            },
+            {
+              "tee": "BLUE",
+              "meters": 440
+            },
+            {
+              "tee": "BLACK",
+              "meters": 440
+            }
+          ],
+          "meters": {
+            "red": 347,
+            "white": 398,
+            "blue": 440,
+            "black": 440
+          }
+        },
+        {
+          "holeNumber": 15,
+          "par": 4,
+          "handicapIndex": 10,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 334
+            },
+            {
+              "tee": "WHITE",
+              "meters": 375
+            },
+            {
+              "tee": "BLUE",
+              "meters": 411
+            },
+            {
+              "tee": "BLACK",
+              "meters": 411
+            }
+          ],
+          "meters": {
+            "red": 334,
+            "white": 375,
+            "blue": 411,
+            "black": 411
+          }
+        },
+        {
+          "holeNumber": 16,
+          "par": 5,
+          "handicapIndex": 14,
+          "notes": "Risk / Reward par 5",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 407
+            },
+            {
+              "tee": "WHITE",
+              "meters": 443
+            },
+            {
+              "tee": "BLUE",
+              "meters": 478
+            },
+            {
+              "tee": "BLACK",
+              "meters": 478
+            }
+          ],
+          "meters": {
+            "red": 407,
+            "white": 443,
+            "blue": 478,
+            "black": 478
+          }
+        },
+        {
+          "holeNumber": 17,
+          "par": 3,
+          "handicapIndex": 6,
+          "notes": "Famous Island Green",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 101
+            },
+            {
+              "tee": "WHITE",
+              "meters": 114
+            },
+            {
+              "tee": "BLUE",
+              "meters": 125
+            },
+            {
+              "tee": "BLACK",
+              "meters": 125
+            }
+          ],
+          "meters": {
+            "red": 101,
+            "white": 114,
+            "blue": 125,
+            "black": 125
+          }
+        },
+        {
+          "holeNumber": 18,
+          "par": 4,
+          "handicapIndex": 4,
+          "notes": "Water all along left",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 361
+            },
+            {
+              "tee": "WHITE",
+              "meters": 393
+            },
+            {
+              "tee": "BLUE",
+              "meters": 422
+            },
+            {
+              "tee": "BLACK",
+              "meters": 422
+            }
+          ],
+          "meters": {
+            "red": 361,
+            "white": 393,
+            "blue": 422,
+            "black": 422
+          }
+        }
+      ],
+      "availableTees": [
+        "RED",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ]
+    },
+    {
+      "id": "course-pine-valley",
+      "name": "Pine Valley Executive 9",
+      "location": "Clementon, New Jersey",
+      "city": "Clementon",
+      "country": "USA",
+      "holesCount": 9,
+      "parTotal": 36,
+      "rating": 35.8,
+      "slope": 128,
+      "createdAt": "2026-08-14T11:53:13.802Z",
+      "isCustom": false,
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicapIndex": 3,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 293
+            },
+            {
+              "tee": "WHITE",
+              "meters": 325
+            },
+            {
+              "tee": "BLUE",
+              "meters": 357
+            },
+            {
+              "tee": "BLACK",
+              "meters": 375
+            }
+          ],
+          "meters": {
+            "red": 293,
+            "white": 325,
+            "blue": 357,
+            "black": 375
+          }
+        },
+        {
+          "holeNumber": 2,
+          "par": 4,
+          "handicapIndex": 1,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 311
+            },
+            {
+              "tee": "WHITE",
+              "meters": 343
+            },
+            {
+              "tee": "BLUE",
+              "meters": 375
+            },
+            {
+              "tee": "BLACK",
+              "meters": 393
+            }
+          ],
+          "meters": {
+            "red": 311,
+            "white": 343,
+            "blue": 375,
+            "black": 393
+          }
+        },
+        {
+          "holeNumber": 3,
+          "par": 3,
+          "handicapIndex": 9,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 119
+            },
+            {
+              "tee": "WHITE",
+              "meters": 142
+            },
+            {
+              "tee": "BLUE",
+              "meters": 165
+            },
+            {
+              "tee": "BLACK",
+              "meters": 178
+            }
+          ],
+          "meters": {
+            "red": 119,
+            "white": 142,
+            "blue": 165,
+            "black": 178
+          }
+        },
+        {
+          "holeNumber": 4,
+          "par": 5,
+          "handicapIndex": 5,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 421
+            },
+            {
+              "tee": "WHITE",
+              "meters": 453
+            },
+            {
+              "tee": "BLUE",
+              "meters": 485
+            },
+            {
+              "tee": "BLACK",
+              "meters": 507
+            }
+          ],
+          "meters": {
+            "red": 421,
+            "white": 453,
+            "blue": 485,
+            "black": 507
+          }
+        },
+        {
+          "holeNumber": 5,
+          "par": 3,
+          "handicapIndex": 7,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 128
+            },
+            {
+              "tee": "WHITE",
+              "meters": 151
+            },
+            {
+              "tee": "BLUE",
+              "meters": 174
+            },
+            {
+              "tee": "BLACK",
+              "meters": 187
+            }
+          ],
+          "meters": {
+            "red": 128,
+            "white": 151,
+            "blue": 174,
+            "black": 187
+          }
+        },
+        {
+          "holeNumber": 6,
+          "par": 4,
+          "handicapIndex": 4,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 283
+            },
+            {
+              "tee": "WHITE",
+              "meters": 315
+            },
+            {
+              "tee": "BLUE",
+              "meters": 347
+            },
+            {
+              "tee": "BLACK",
+              "meters": 366
+            }
+          ],
+          "meters": {
+            "red": 283,
+            "white": 315,
+            "blue": 347,
+            "black": 366
+          }
+        },
+        {
+          "holeNumber": 7,
+          "par": 5,
+          "handicapIndex": 2,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 430
+            },
+            {
+              "tee": "WHITE",
+              "meters": 466
+            },
+            {
+              "tee": "BLUE",
+              "meters": 498
+            },
+            {
+              "tee": "BLACK",
+              "meters": 521
+            }
+          ],
+          "meters": {
+            "red": 430,
+            "white": 466,
+            "blue": 498,
+            "black": 521
+          }
+        },
+        {
+          "holeNumber": 8,
+          "par": 4,
+          "handicapIndex": 8,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 265
+            },
+            {
+              "tee": "WHITE",
+              "meters": 293
+            },
+            {
+              "tee": "BLUE",
+              "meters": 325
+            },
+            {
+              "tee": "BLACK",
+              "meters": 343
+            }
+          ],
+          "meters": {
+            "red": 265,
+            "white": 293,
+            "blue": 325,
+            "black": 343
+          }
+        },
+        {
+          "holeNumber": 9,
+          "par": 4,
+          "handicapIndex": 6,
+          "notes": "",
+          "tees": [
+            {
+              "tee": "RED",
+              "meters": 302
+            },
+            {
+              "tee": "WHITE",
+              "meters": 334
+            },
+            {
+              "tee": "BLUE",
+              "meters": 366
+            },
+            {
+              "tee": "BLACK",
+              "meters": 384
+            }
+          ],
+          "meters": {
+            "red": 302,
+            "white": 334,
+            "blue": 366,
+            "black": 384
+          }
+        }
+      ],
+      "availableTees": [
+        "RED",
+        "WHITE",
+        "BLUE",
+        "BLACK"
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "player-1",
+      "name": "Elias",
+      "handicapIndex": 9.4,
+      "defaultTee": "white",
+      "avatarBg": "#059669",
+      "createdAt": "2026-08-14T11:53:13.802Z"
+    },
+    {
+      "id": "player-2",
+      "name": "Alex Miller",
+      "handicapIndex": 14.2,
+      "defaultTee": "white",
+      "avatarBg": "#2563eb",
+      "createdAt": "2026-08-14T11:53:13.802Z"
+    },
+    {
+      "id": "player-3",
+      "name": "Jordan Smith",
+      "handicapIndex": 6.8,
+      "defaultTee": "blue",
+      "avatarBg": "#7c3aed",
+      "createdAt": "2026-08-14T11:53:13.802Z"
+    },
+    {
+      "id": "player-4",
+      "name": "Sam Taylor",
+      "handicapIndex": 18,
+      "defaultTee": "red",
+      "avatarBg": "#d97706",
+      "createdAt": "2026-08-14T11:53:13.802Z"
+    }
+  ],
+  "rounds": [
+    {
+      "id": "round-sample-1",
+      "date": "2026-08-11T11:53:13.803Z",
+      "courseId": "course-augusta",
+      "courseName": "Augusta National Golf Club",
+      "courseLocation": "Augusta, Georgia",
+      "holesPlayed": 18,
+      "startingHole": 1,
+      "format": "stroke",
+      "status": "completed",
+      "weather": "Sunny, 72°F / 22°C, Light Breeze",
+      "notes": "Great match play round! Chipped in for birdie on 12.",
+      "players": [
+        {
+          "playerId": "player-1",
+          "playerName": "Elias",
+          "handicap": 9.4,
+          "teeColor": "white",
+          "holeScores": {
+            "1": {
+              "holeNumber": 1,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "2": {
+              "holeNumber": 2,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "3": {
+              "holeNumber": 3,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "left",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "4": {
+              "holeNumber": 4,
+              "strokes": 3,
+              "putts": 1,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "5": {
+              "holeNumber": 5,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "6": {
+              "holeNumber": 6,
+              "strokes": 3,
+              "putts": 2,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "7": {
+              "holeNumber": 7,
+              "strokes": 4,
+              "putts": 1,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "8": {
+              "holeNumber": 8,
+              "strokes": 4,
+              "putts": 1,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "9": {
+              "holeNumber": 9,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "left",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "10": {
+              "holeNumber": 10,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "11": {
+              "holeNumber": 11,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "12": {
+              "holeNumber": 12,
+              "strokes": 2,
+              "putts": 1,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "13": {
+              "holeNumber": 13,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "14": {
+              "holeNumber": 14,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "15": {
+              "holeNumber": 15,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "left",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "16": {
+              "holeNumber": 16,
+              "strokes": 3,
+              "putts": 1,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "17": {
+              "holeNumber": 17,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "18": {
+              "holeNumber": 18,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "left",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            }
+          }
+        },
+        {
+          "playerId": "player-2",
+          "playerName": "Alex Miller",
+          "handicap": 14.2,
+          "teeColor": "white",
+          "holeScores": {
+            "1": {
+              "holeNumber": 1,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "2": {
+              "holeNumber": 2,
+              "strokes": 6,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "3": {
+              "holeNumber": 3,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "4": {
+              "holeNumber": 4,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "na",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "5": {
+              "holeNumber": 5,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "6": {
+              "holeNumber": 6,
+              "strokes": 3,
+              "putts": 1,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "7": {
+              "holeNumber": 7,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "8": {
+              "holeNumber": 8,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "9": {
+              "holeNumber": 9,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "10": {
+              "holeNumber": 10,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "11": {
+              "holeNumber": 11,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "12": {
+              "holeNumber": 12,
+              "strokes": 3,
+              "putts": 1,
+              "fairwayHit": "na",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "13": {
+              "holeNumber": 13,
+              "strokes": 6,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 1,
+              "sandSave": false
+            },
+            "14": {
+              "holeNumber": 14,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": true,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "15": {
+              "holeNumber": 15,
+              "strokes": 6,
+              "putts": 3,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "16": {
+              "holeNumber": 16,
+              "strokes": 4,
+              "putts": 2,
+              "fairwayHit": "na",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "17": {
+              "holeNumber": 17,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "right",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            },
+            "18": {
+              "holeNumber": 18,
+              "strokes": 5,
+              "putts": 2,
+              "fairwayHit": "hit",
+              "greenInRegulation": false,
+              "penalties": 0,
+              "sandSave": false
+            }
+          }
+        }
+      ],
+      "createdAt": "2026-08-11T11:53:13.803Z",
+      "updatedAt": "2026-08-11T11:53:13.803Z"
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-14T11:53:13.803Z"
+}

@@ -32,6 +32,8 @@ jobs:
 
       - name: Build
         working-directory: frontend
+        env:
+          VITE_API_URL: https://sure-gaby-jenseneducation2-25ba0ec0.koyeb.app
         run: npm run build
       
       - name: Set up Pages

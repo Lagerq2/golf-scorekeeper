@@ -5,6 +5,9 @@ const LOCAL_STORAGE_KEY_ROUNDS = 'golf_db_fallback_rounds';
 const LOCAL_STORAGE_KEY_COURSES = 'golf_db_fallback_courses';
 const LOCAL_STORAGE_KEY_PLAYERS = 'golf_db_fallback_players';
 
+const API_BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const apiUrl = (path: string) => `${API_BASE_URL}${path}`;
+
 export interface DatabaseStatus {
   status: string;
   database: string;
@@ -21,7 +24,7 @@ export const api = {
   // DB Status
   async getStatus(): Promise<DatabaseStatus> {
     try {
-      const res = await fetch('/api/status');
+      const res = await fetch(apiUrl('/api/status'));
       if (!res.ok) throw new Error('Status fetch failed');
       return await res.json();
     } catch {
@@ -42,7 +45,7 @@ export const api = {
   // Courses
   async getCourses(): Promise<Course[]> {
     try {
-      const res = await fetch('/api/courses');
+      const res = await fetch(apiUrl('/api/courses'));
       if (!res.ok) throw new Error('Failed to fetch courses');
       const data = (await res.json()).map(normalizeCourseDistances);
       localStorage.setItem(LOCAL_STORAGE_KEY_COURSES, JSON.stringify(data));
@@ -54,7 +57,7 @@ export const api = {
 
   async createCourse(course: Partial<Course>): Promise<Course> {
     try {
-      const res = await fetch('/api/courses', {
+      const res = await fetch(apiUrl('/api/courses'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(course)
@@ -82,7 +85,7 @@ export const api = {
   },
 
   async updateCourse(id: string, updates: Partial<Course>): Promise<Course> {
-    const res = await fetch(`/api/courses/${id}`, {
+    const res = await fetch(apiUrl(`/api/courses/${id}`), {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updates)
@@ -96,7 +99,7 @@ export const api = {
 
   async deleteCourse(id: string): Promise<void> {
     try {
-      await fetch(`/api/courses/${id}`, { method: 'DELETE' });
+      await fetch(apiUrl(`/api/courses/${id}`), { method: 'DELETE' });
     } catch (e) {
       console.warn('API deleteCourse fallback', e);
     }
@@ -107,7 +110,7 @@ export const api = {
   // Players
   async getPlayers(): Promise<Player[]> {
     try {
-      const res = await fetch('/api/players');
+      const res = await fetch(apiUrl('/api/players'));
       if (!res.ok) throw new Error('Failed to fetch players');
       const data = await res.json();
       localStorage.setItem(LOCAL_STORAGE_KEY_PLAYERS, JSON.stringify(data));
@@ -119,7 +122,7 @@ export const api = {
 
   async createPlayer(player: Partial<Player>): Promise<Player> {
     try {
-      const res = await fetch('/api/players', {
+      const res = await fetch(apiUrl('/api/players'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(player)
@@ -146,7 +149,7 @@ export const api = {
 
   async updatePlayer(id: string, updates: Partial<Player>): Promise<Player> {
     try {
-      const res = await fetch(`/api/players/${id}`, {
+      const res = await fetch(apiUrl(`/api/players/${id}`), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updates)
@@ -167,7 +170,7 @@ export const api = {
 
   async deletePlayer(id: string): Promise<void> {
     try {
-      await fetch(`/api/players/${id}`, { method: 'DELETE' });
+      await fetch(apiUrl(`/api/players/${id}`), { method: 'DELETE' });
     } catch (e) {
       console.warn('deletePlayer error', e);
     }
@@ -178,7 +181,7 @@ export const api = {
   // Rounds
   async getRounds(): Promise<GolfRound[]> {
     try {
-      const res = await fetch('/api/rounds');
+      const res = await fetch(apiUrl('/api/rounds'));
       if (!res.ok) throw new Error('Failed to fetch rounds');
       const data = await res.json();
       localStorage.setItem(LOCAL_STORAGE_KEY_ROUNDS, JSON.stringify(data));
@@ -190,7 +193,7 @@ export const api = {
 
   async getRoundById(id: string): Promise<GolfRound | null> {
     try {
-      const res = await fetch(`/api/rounds/${id}`);
+      const res = await fetch(apiUrl(`/api/rounds/${id}`));
       if (!res.ok) throw new Error('Round not found');
       return await res.json();
     } catch {
@@ -201,7 +204,7 @@ export const api = {
 
   async createRound(round: Partial<GolfRound>): Promise<GolfRound> {
     try {
-      const res = await fetch('/api/rounds', {
+      const res = await fetch(apiUrl('/api/rounds'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(round)
@@ -236,7 +239,7 @@ export const api = {
 
   async updateRound(id: string, updates: Partial<GolfRound>): Promise<GolfRound> {
     try {
-      const res = await fetch(`/api/rounds/${id}`, {
+      const res = await fetch(apiUrl(`/api/rounds/${id}`), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updates)
@@ -266,7 +269,7 @@ export const api = {
 
   async deleteRound(id: string): Promise<void> {
     try {
-      await fetch(`/api/rounds/${id}`, { method: 'DELETE' });
+      await fetch(apiUrl(`/api/rounds/${id}`), { method: 'DELETE' });
     } catch (e) {
       console.warn('deleteRound error', e);
     }
@@ -276,13 +279,13 @@ export const api = {
 
   // DB Backup / Restore / Reset
   async exportBackup(): Promise<any> {
-    const res = await fetch('/api/database/export');
+    const res = await fetch(apiUrl('/api/database/export'));
     if (!res.ok) throw new Error('Failed to export backup');
     return await res.json();
   },
 
   async restoreBackup(backupData: any): Promise<any> {
-    const res = await fetch('/api/database/restore', {
+    const res = await fetch(apiUrl('/api/database/restore'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(backupData)
@@ -292,7 +295,7 @@ export const api = {
   },
 
   async resetDatabase(): Promise<any> {
-    const res = await fetch('/api/database/reset', { method: 'POST' });
+    const res = await fetch(apiUrl('/api/database/reset'), { method: 'POST' });
     if (!res.ok) throw new Error('Failed to reset database');
     return await res.json();
   },

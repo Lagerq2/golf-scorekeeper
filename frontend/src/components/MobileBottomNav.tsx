@@ -52,7 +52,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           }`}
         >
           <Database className="w-5 h-5" />
-          <span className="text-[10px] tracking-tight mt-0.5">Vault</span>
+          <span className="text-[10px] tracking-tight mt-0.5">History</span>
         </button>
 
         {/* Quick New Round Floating Button in Center */}
@@ -101,7 +101,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           }`}
         >
           <BarChart3 className="w-5 h-5" />
-          <span className="text-[10px] tracking-tight mt-0.5">Stats</span>
+          <span className="text-[10px] tracking-tight mt-0.5">My Game</span>
         </button>
 
       </div>

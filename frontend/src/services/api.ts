@@ -1,4 +1,4 @@
-import { Course, GolfRound, Player } from '../types';
+import { Course, GolfRound, PerformanceStats, Player } from '../types';
 import { normalizeCourseDistances } from '../utils/teeDistances';
 
 const LOCAL_STORAGE_KEY_ROUNDS = 'golf_db_fallback_rounds';
@@ -275,6 +275,12 @@ export const api = {
     }
     const local = api.getLocalRounds().filter(r => r.id !== id);
     localStorage.setItem(LOCAL_STORAGE_KEY_ROUNDS, JSON.stringify(local));
+  },
+
+  async getPlayerStatistics(playerId: string): Promise<PerformanceStats> {
+    const res = await fetch(apiUrl(`/api/statistics/players/${playerId}`));
+    if (!res.ok) throw new Error('Failed to load performance statistics');
+    return await res.json();
   },
 
   // DB Backup / Restore / Reset

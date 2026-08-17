@@ -38,7 +38,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   Synced
                 </span>
               </div>
-              <p className="text-[11px] sm:text-xs text-[#CCD7BE] hidden sm:block font-serif italic mt-0.5">Course Scorekeeper & Database Vault</p>
+              <p className="text-[11px] sm:text-xs text-[#CCD7BE] hidden sm:block font-serif italic mt-0.5">Your personal golf performance companion</p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               <Database className="w-4 h-4" />
-              <span>Scorecards Vault</span>
+              <span>Round History</span>
               {dbStatus && dbStatus.totalRounds > 0 && (
                 <span className="text-xs px-1.5 py-0.2 rounded-full bg-[#1D2619] border border-[#3D4E35] text-[#DCE4D0]">
                   {dbStatus.totalRounds}
@@ -114,7 +114,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               <BarChart3 className="w-4 h-4" />
-              <span>Stats</span>
+              <span>Your Game</span>
             </button>
           </nav>
 

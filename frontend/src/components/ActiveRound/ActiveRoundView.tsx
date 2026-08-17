@@ -89,6 +89,7 @@ export const ActiveRoundView: React.FC<ActiveRoundViewProps> = ({
       fairwayHit: currentHole.par >= 4 ? 'hit' : 'na',
       greenInRegulation: false,
       penalties: 0,
+      bunkerShots: 0,
       sandSave: false
     };
 
@@ -121,6 +122,7 @@ export const ActiveRoundView: React.FC<ActiveRoundViewProps> = ({
         fairwayHit: currentHole.par >= 4 ? 'hit' : 'na',
         greenInRegulation: true,
         penalties: 0,
+        bunkerShots: 0,
         sandSave: false
       };
       return {

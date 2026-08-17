@@ -39,7 +39,7 @@ export interface Player {
   createdAt: string;
 }
 
-export type FairwayHit = 'hit' | 'left' | 'right' | 'na';
+export type FairwayHit = 'hit' | 'left' | 'right' | 'pending' | 'na';
 
 export interface PlayerHoleScore {
   holeNumber: number;
@@ -48,7 +48,9 @@ export interface PlayerHoleScore {
   fairwayHit: FairwayHit;
   greenInRegulation: boolean;
   penalties: number;
+  bunkerShots?: number;
   sandSave?: boolean;
+  notes?: string;
 }
 
 export interface PlayerRoundScore {
@@ -112,4 +114,51 @@ export interface PlayerRoundSummary {
   doubleBogeys: number;
   triplePlus: number;
   holesCompleted: number;
+}
+
+export interface TrendPoint {
+  roundId: string;
+  date: string;
+  courseName: string;
+  score: number;
+  toPar: number;
+  putts: number;
+  fairwayPct: number;
+  girPct: number;
+}
+
+export interface PerformanceInsight {
+  category: string;
+  title: string;
+  message: string;
+  tone: 'practice' | 'positive' | 'attention';
+}
+
+export interface CoursePerformance {
+  courseId: string;
+  courseName: string;
+  roundsPlayed: number;
+  averageScore: number | null;
+  averageToPar: number | null;
+  bestScore: number | null;
+  holes: Array<{ holeNumber: number; rounds: number; averageScore: number; averageToPar: number }>;
+}
+
+export interface PerformanceStats {
+  playerId: string;
+  roundsPlayed: number;
+  holesPlayed: number;
+  averageScore: number | null;
+  averageToPar: number | null;
+  bestScore: number | null;
+  averagePuttsPerRound: number | null;
+  puttsPerHole: number | null;
+  fairwayPct: number | null;
+  girPct: number | null;
+  averagePenalties: number | null;
+  averageBunkerShots: number | null;
+  byPar: Record<'3' | '4' | '5', { holes: number; average: number | null; averageToPar: number | null }>;
+  trend: TrendPoint[];
+  insights: PerformanceInsight[];
+  courses: CoursePerformance[];
 }

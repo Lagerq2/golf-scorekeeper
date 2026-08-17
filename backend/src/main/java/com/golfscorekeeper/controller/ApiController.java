@@ -3,6 +3,7 @@ package com.golfscorekeeper.controller;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.golfscorekeeper.service.GolfDatabase;
+import com.golfscorekeeper.service.StatisticsService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,8 +18,9 @@ import java.util.List;
 @RequestMapping("/api")
 public class ApiController {
     private final GolfDatabase db;
+    private final StatisticsService statistics;
 
-    public ApiController(GolfDatabase db) { this.db = db; }
+    public ApiController(GolfDatabase db, StatisticsService statistics) { this.db = db; this.statistics = statistics; }
 
     @GetMapping("/status") public ObjectNode status() throws IOException { return db.status(); }
     @GetMapping("/courses") public JsonNode courses() { return db.all("courses"); }
@@ -42,6 +44,18 @@ public class ApiController {
     public ObjectNode createRound(@RequestBody ObjectNode body) throws IOException { return db.createRound(body); }
     @PutMapping("/rounds/{id}") public ObjectNode updateRound(@PathVariable String id, @RequestBody ObjectNode body) throws IOException { return found(db.update("rounds", id, body), "Round"); }
     @DeleteMapping("/rounds/{id}") public ObjectNode deleteRound(@PathVariable String id) throws IOException { return deleted("rounds", id, "Round"); }
+
+    @GetMapping("/statistics/players/{playerId}")
+    public ObjectNode playerStatistics(@PathVariable String playerId) {
+        found(db.find("players", playerId), "Player");
+        return statistics.playerStatistics(playerId);
+    }
+
+    @GetMapping("/statistics/players/{playerId}/courses")
+    public JsonNode playerCourseStatistics(@PathVariable String playerId) {
+        found(db.find("players", playerId), "Player");
+        return statistics.courseStatistics(playerId);
+    }
 
     @GetMapping("/database/export")
     public ResponseEntity<ObjectNode> exportDatabase() {

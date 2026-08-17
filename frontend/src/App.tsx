@@ -13,7 +13,7 @@ import { DatabaseToolsModal } from './components/DatabaseToolsModal';
 import { Play, Database, Plus, Trophy, Flag, Shield, RefreshCw } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'active_round' | 'history' | 'courses' | 'players' | 'analytics'>('active_round');
+  const [activeTab, setActiveTab] = useState<'active_round' | 'history' | 'courses' | 'players' | 'analytics'>('analytics');
   const [courses, setCourses] = useState<Course[]>([]);
   const [players, setPlayers] = useState<Player[]>([]);
   const [rounds, setRounds] = useState<GolfRound[]>([]);
@@ -45,6 +45,7 @@ export default function App() {
       const inProgress = fetchedRounds.find(r => r.status === 'in_progress');
       if (inProgress && !activeRound) {
         setActiveRound(inProgress);
+        setActiveTab('active_round');
       }
     } catch (err) {
       console.error('Error loading data:', err);
@@ -225,7 +226,7 @@ export default function App() {
         <div className="w-14 h-14 rounded-2xl bg-[#8EA67B] flex items-center justify-center text-[#1D2619] shadow-xl animate-pulse mb-4">
           <Flag className="w-7 h-7 fill-current" />
         </div>
-        <h2 className="text-xl font-bold font-serif">GolfScore Vault</h2>
+        <h2 className="text-xl font-bold font-serif">GolfScore Companion</h2>
         <p className="text-xs text-[#CCD7BE] mt-1 flex items-center gap-1.5 font-serif italic">
           <RefreshCw className="w-3.5 h-3.5 animate-spin text-[#E6CC7A]" />
           <span>Connecting to persistent score database...</span>

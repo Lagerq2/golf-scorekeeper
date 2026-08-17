@@ -33,6 +33,7 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
     fairwayHit: hole.par >= 4 ? 'hit' : 'na',
     greenInRegulation: false,
     penalties: 0,
+    bunkerShots: 0,
     sandSave: false
   };
 
@@ -41,6 +42,7 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
   const fairwayHit = currentHoleScore.fairwayHit ?? (hole.par >= 4 ? 'hit' : 'na');
   const gir = currentHoleScore.greenInRegulation ?? (strokes > 0 && strokes <= hole.par);
   const penalties = currentHoleScore.penalties ?? 0;
+  const bunkerShots = currentHoleScore.bunkerShots ?? (currentHoleScore.sandSave ? 1 : 0);
   const sandSave = currentHoleScore.sandSave ?? false;
 
   const scoreType = strokes > 0 ? getScoreType(strokes, hole.par) : 'unplayed';
@@ -82,7 +84,8 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
       putts: 2,
       fairwayHit: hole.par >= 4 ? 'hit' : 'na',
       greenInRegulation: true,
-      penalties: 0
+      penalties: 0,
+      bunkerShots: 0
     });
   };
 
@@ -93,7 +96,9 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
       putts: 0,
       fairwayHit: hole.par >= 4 ? 'pending' : 'na',
       greenInRegulation: false,
-      penalties: 0
+      penalties: 0,
+      bunkerShots: 0,
+      notes: ''
     });
   };
 
@@ -347,20 +352,21 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
           <span>{gir ? 'GIR: Yes' : 'GIR: No'}</span>
         </button>
 
-        {/* Sand Save */}
+        {/* Bunker shots */}
         <button
           id="btn-toggle-sand"
           onClick={() => {
             triggerHaptic('light');
-            onUpdateScore(hole.holeNumber, { sandSave: !sandSave });
+            const next = (bunkerShots + 1) % 4;
+            onUpdateScore(hole.holeNumber, { bunkerShots: next, sandSave: next > 0 ? sandSave : false });
           }}
           className={`min-h-[44px] py-2 px-1.5 rounded-xl flex items-center justify-center gap-1.5 border transition-all text-xs font-bold active:scale-95 touch-manipulation ${
-            sandSave
+            bunkerShots > 0
               ? 'bg-[#FBF6E2] border-[#E6CC7A] text-[#1D2619]'
               : 'bg-[#F7F9F2] border-[#CCD7BE] text-[#6C7E64] hover:bg-[#E9EDD9]'
           }`}
         >
-          <span>{sandSave ? '🏖️ Sand Save' : 'Sand: No'}</span>
+          <span>{bunkerShots > 0 ? `Bunker: ${bunkerShots}` : 'Bunker: 0'}</span>
         </button>
 
         {/* Penalties */}
@@ -380,6 +386,20 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
           <span>{penalties === 0 ? 'Penalties: 0' : `+${penalties} Pen`}</span>
         </button>
       </div>
+
+      <details className="pt-2 border-t border-[#E9EDD9] group">
+        <summary className="cursor-pointer list-none text-[11px] font-bold uppercase tracking-wider text-[#6C7E64] flex items-center justify-between min-h-[36px]">
+          <span>Optional hole notes</span>
+          <span className="normal-case font-medium text-[#7E8F77]">{currentHoleScore.notes ? 'Added' : 'Add detail'}</span>
+        </summary>
+        <textarea
+          value={currentHoleScore.notes || ''}
+          onChange={(event) => onUpdateScore(hole.holeNumber, { notes: event.target.value.slice(0, 300) })}
+          placeholder="Club choice, lie, miss pattern, or something to remember…"
+          rows={2}
+          className="mt-1 w-full resize-none rounded-xl border border-[#CCD7BE] bg-[#F7F9F2] px-3 py-2 text-sm text-[#1D2619] focus:outline-hidden focus:ring-2 focus:ring-[#8EA67B]"
+        />
+      </details>
 
       {/* Next/Prev Navigation with big 44px touch targets */}
       <div className="pt-3 border-t border-[#E9EDD9] flex items-center justify-between gap-3">
@@ -413,5 +433,3 @@ export const ScoreCounterCard: React.FC<ScoreCounterCardProps> = ({
     </div>
   );
 };
-
-
